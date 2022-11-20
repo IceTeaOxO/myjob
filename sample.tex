@@ -1,0 +1,289 @@
+\documentclass
+[answers]
+{exam}
+
+\linespread{1.1}
+
+\usepackage{amsmath, amssymb, amsthm}  %% 數學符號用txfonts
+\usepackage{mathrsfs} 
+%\usepackage{pstricks,pstricks-add} % 引入 pstricks 和 pstricks-add 套件 (繪圖套件) 
+%插入GGB圖片===================================
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+%=============================================
+\usepackage{graphicx}   %% 插入圖片用
+\usepackage{float}  %%強制插入圖片位置
+\usepackage{caption}
+\usepackage{subfigure}
+\usepackage{color}
+%\usepackage{minitoc}   %chapter下的小目錄
+\usepackage{colortbl}
+\usepackage{nopageno}
+\usepackage{cases}
+\usepackage{textcomp}             % for \textcelsius
+\renewcommand{\arraystretch}{1.2} % 將表格行間距加大為原來的 1.2 倍
+\arrayrulewidth=1pt               % 調整線條粗細為 1pt
+\tabcolsep=15pt                   % 調整欄間距為 24pt
+
+
+%\begin{figure}[h]
+%\includegraphics[scale=1.2]{./figure/2.png}
+%\end{figure}
+
+\usepackage{wrapfig}  %%圖文並排
+
+%\begin{wrapfigure}{r}{6cm}  r：圖片靠右  6cm：離右邊6cm
+%	\centering  圖片在右邊區塊的中間
+%	\includegraphics[scale=0.6]{./figure/19.png}
+%\end{wrapfigure}
+
+\usepackage{tcolorbox}  %% 顏色方框
+\usepackage{tikz}  %%繪製流程圖、腦圖...
+\usepackage{array}  %%陣列
+\usepackage{booktabs} %調整表格線與上下內容的間隔
+\usepackage{multirow}
+\usepackage{enumitem}
+%可改enumerate的label
+\usepackage{tasks}  %%選擇題
+\settasks{label=(\Alph*),
+		  label-width=3.5ex,
+		  label-offset={0.4em},
+		  label-align=left,
+		  column-sep={1pt},
+		  item-indent={21pt}, %%選項前後
+		  before-skip={-0.7em},
+		  after-skip={-0.7em}}
+%[label=(\Alph*),label-width=4ex]  
+%\Alph* 選項ABCD  \alph* 選項abcd  \arabic* 選項1234 \roman*羅馬數字
+\usepackage{framed}  %%框框
+%出入單行字加框  \framebox[\width]{我是一段话}
+
+%插入圖片 \rightline{\includegraphics[scale=1.2]{./chapter_1/figure/1.png}}
+\usepackage{diagbox}  %%斜線表格頭
+\usepackage{ulem}
+%\sout{文字} 刪除線		\uwave{文字} 波浪線
+%\xout{文字} 斜刪除線		\uuline{文字} 雙下划線
+\usepackage[margin=2cm]{geometry} %邊界設定
+\usepackage[export]{adjustbox} %插入圖片
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+%%[是否開啟目錄顏色,目錄顏色設定]{超連結}
+
+%\usepackage{fancyhdr}  %%這兩行是頁首頁尾
+%\pagestyle{fancy}  %%頁首頁尾格式
+%\fancypagestyle{plain}{}
+%\renewcommand{\headrulewidth}{0.4pt}  %%頁首下方直線厚度
+%\cfoot{觀念解數學--~\thepage~--態度解人生}
+%\fancyhead{} % 清除所有頁首設定
+%\fancyhead[RO,LE]{\thechapter}
+%\fancyfoot{} % 清除所有頁尾設定
+%\fancyfoot[LE,RO]{第~\thepage~頁}      % 頁碼放在偶數頁的左邊及奇數頁的右邊
+%\fancyfoot[LO,CE]{奇數頁左及偶數頁中}
+%\fancyfoot[CO,RE]{奇數頁中及偶數頁右}
+% Texmaker使用者: 上方選擇XeLaTeX後再編譯
+\usepackage{xeCJK}   % Chinese input settings
+\setCJKmainfont{標楷體} % Windows使用者請使用這行
+\setmainfont{Times New Roman}
+\defaultCJKfontfeatures{AutoFakeBold=0.5,AutoFakeSlant=0} %以後不用再設定粗斜
+\newCJKfontfamily\WC{華康行楷體W5}                       
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+%%上兩行才能讓中文自動換行
+\makeatletter
+\def\rightharpoonfill@{\arrowfill@\relbar\relbar\rightharpoonup}
+\newcommand{\vect}{\mathpalette{\overarrow@\rightharpoonfill@}}
+\makeatother
+%向量
+
+%\renewcommand{\qedsymbol}{}
+\newcommand{\R}{\mathbb{R}} %mathbb 雙行粗體
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\renewcommand{\S}{\mathbb{S}}
+\newcommand{\f}{\ensuremath{\mathcal{F}}} 
+%%\ensuremath  非數學模式自動加上$符號
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\newcommand\abs[1]{\left| #1\right| }
+\newcommand\ul[1]{\uline{\hspace*{#1}}}
+\newcommand\px{\kern 0.56em/\kern -0.8em /\kern 0.56em}
+%文繞圖 wrapfigure 和 條列式環境 item 並列, 需在 enumerate 環境之中
+%\itemwrap{<先用 \begin{wrapfigure} 環境插入圖片, 再接著文字>}
+\newcommand{\itemwrap}[1]{
+	\item \parbox[t]{\dimexpr\textwidth-\leftmargin}{
+		\vspace{-3.2mm}#1}}
+
+%\itemwraps{<需縮排的行數>}{<圖片寬度(配合上面寬度)>}{<文字>}
+\newcommand{\itemwraps}[3]{
+	\item \parbox[t]{\dimexpr\textwidth-\leftmargin}{%
+		\vspace{-3.2mm}
+		\begin{wrapfigure}[#1]{r}{#2}
+		\end{wrapfigure}#3}}
+
+
+\newif\ifqr\qrfalse %QR
+\newcommand{\qr}[1]{\ifqr\relax\else #1\fi} 
+%教用學生版 %一鍵隱藏答案  \true隱藏  \false顯示
+
+\newif\ifans\ansfalse
+\newcommand{\ans}[1]{\ifans\relax\else\framebox{#1}\fi} 
+
+\DeclareMathOperator{\sign}{sign} %sign為非斜體
+
+\parindent=0pt  %%首行空格
+\renewcommand{\qedsymbol}{}  %證明後面沒方格
+
+%\theoremstyle{remark}
+%\newtheorem{prop}{Proposition}
+%\newtheorem{thm}[prop]{Theorem}   %% 編號跟著 prop 走
+%\newtheorem*{thm}{Theorem}   %% 有自己的編號
+%\newtheorem{lem}{\underline{Lemma}}
+%\newtheorem*{rmk}{\bf{\underline{Remark}}}
+%\newtheorem*{ex}{\underline{Examples}}
+%\newtheorem{cor}{Corollary}
+%\newtheorem*{coro}{Corollary}
+%\newtheorem{lem}[thm]{Lemma}
+\theoremstyle{definition}
+%\newtheorem*{defn}{Definition}
+\newtheorem{foc}{\WC\underline{\Large{焦點}}}[section]
+\newtheorem*{pra}{\WC\underline{\Large{隨堂小練}}}
+\newtheorem*{hw}{\WC\underline{\Large{課後練功坊}}}
+\newtheorem*{suyu}{\WC\underline{\Large{素養挑戰題}}}
+
+\newif\ifyr\yrfalse %年分
+\newcommand{\yr}[1]{\ifyr\relax\else #1\fi} 
+%教用學生版 %一鍵隱藏答案  \true隱藏  \false顯示
+
+\newif\ifsho\shofalse %學校
+\newcommand{\sho}[1]{\ifsho\relax\else\rightline{【#1】}\fi} 
+%教用學生版 %一鍵隱藏答案  \true隱藏  \false顯示
+
+\newif\ifpos\posfalse %編號
+\newcommand{\pos}[1]{\ifpos\relax\else\framebox{位置：#1}\fi} 
+%教用學生版 %一鍵隱藏答案  \true隱藏  \false顯示
+
+\newif\ifno\nofalse %編號
+\newcommand{\no}[1]{\ifno\relax\else\framebox{編號：#1}\fi} 
+%教用學生版 %一鍵隱藏答案  \true隱藏  \false顯示
+
+\newif\ifvn\vnfalse %空行
+\newcommand{\vn}[1]{\ifvn\relax\else #1\fi}
+
+\usetikzlibrary{shapes.geometric}
+\newcommand{\Stars}[2][fill=black,draw=black]{\begin{tikzpicture}[baseline=-0.35em,#1]
+\foreach \X in {1,...,3}
+{\pgfmathsetmacro{\xfill}{min(1,max(1+#2-\X,0))}
+\path (\X*1.1em,0) 
+node[star,draw,star point height=0.25em,minimum size=1em,inner sep=0pt,
+path picture={\fill (path picture bounding box.south west) 
+rectangle  ([xshift=\xfill*1em]path picture bounding box.north west);}]{};
+}
+\end{tikzpicture}}
+
+
+%有*是無編號  無*是有編號
+% Authur information
+%\title{標題}
+%\author{作者}
+%\date{日期}
+
+%\begin{document}
+%\renewcommand{\qedsymbol}{}  %證明後面沒方格
+%\maketitle   %此功能為是否顯示title
+%\fontsize{20pt}{25pt}\selectfont  %%目錄字體大小
+%\tableofcontents  %%目錄
+
+%\fontsize{12pt}{25pt}\selectfon
+
+
+%===================================================================
+
+\title{{\Huge{\WC{A}}}}
+\author{}
+\date{}
+
+\begin{document}
+
+%\fontsize{20pt}{25pt}\selectfont  %%目錄字體大小
+%\tableofcontents  %目錄
+\let\cleardoublepage\clearpage
+\fontsize{12pt}{25pt}\selectfont  %%內文字體大小
+\newpage
+%-----------------------------------------------------
+\maketitle
+%\section{\WC{直線方程式}}
+%\subsection{~}
+%\subsubsection{直角坐標與斜率}
+
+\begin{questions}
+
+
+%1
+\question\Stars{}\pos{}~\no{}\\
+下列何者是最簡根式？
+
+\begin{tasks}(4)
+	\task $\sqrt{75}$
+	\task $\dfrac{2}{9}\sqrt{7}$
+	\task $\dfrac{3}{\sqrt{6}}$
+	\task $\sqrt{\dfrac{5}{19}}$
+\end{tasks}
+
+%\sho{\yr{104}全模 2}
+
+\begin{solution}~\\
+	
+\end{solution}
+
+%2
+\question\Stars{}\pos{}~\no{}\\
+已知$3x^2 + 5x -2 =(3x-1)(x+2)$，則下列式子是$3x^2+5x-2$的因式有幾個？
+
+\begin{tasks}(3)
+	\task[(甲)] 2
+	\task[(乙)] 1
+\end{tasks}
+
+\ul{50pt}
+
+\begin{tasks}(4)
+	\task $\sqrt{75}$
+	\task $\dfrac{2}{9}\sqrt{7}$
+	\task $\dfrac{3}{\sqrt{6}}$
+	\task $\sqrt{\dfrac{5}{19}}$
+\end{tasks}
+
+\begin{solution}\\
+
+\end{solution}
+
+$2x^2 + 3x = 6$
+
+$\dfrac{1}{2}$
+
+$\int^{\infty}_{-\infty}2x^2dx$
+
+$\sum^{\infty}_{i = 1}2x$
+
+$\left(\begin{matrix} 
+1 & 2 & 3\\ 
+4& 5 & 6
+\end{matrix}\right)$
+
+$\begin{cases} a_1x_1 + b_1x_2 = c_1 \\ a_1x_1 + b_2x_2 = c_2\end{cases}$
+
+
+%\sho{\yr{104}全模 2}
+
+\begin{solution}~\\
+	
+\end{solution}
+
+\begin{tasks}
+
+\end{tasks}
+
+
+\end{questions}
+
+\end{document}
