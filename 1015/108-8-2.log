@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.18)  23 NOV 2022 15:23
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.18)  28 NOV 2022 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,11 +1387,6 @@ Overfull \hbox (1.57301pt too wide) in paragraph at lines 229--229
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
-
 Overfull \hbox (4.907pt too wide) in paragraph at lines 246--246
 \TU/TimesNewRoman(0)/m/n/12 (\TU/標楷體(0)/m/n/12 甲\TU/TimesNewRoman(0)/m/n/12 )
  []
@@ -1458,11 +1453,6 @@ Overfull \hbox (1.57301pt too wide) in paragraph at lines 252--252
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-
 Package tasks Warning: The width of `label-width' is too small on line 265.
 (tasks)                Please set it at least to 16.6582pt.
 
@@ -1498,19 +1488,6 @@ Overfull \hbox (1.57301pt too wide) in paragraph at lines 265--265
 \TU/TimesNewRoman(0)/m/n/12 (D)
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-
- []
-
-Missing character: There is no 小 (U+5C0F) in font Times New Roman/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-Missing character: There is no 明 (U+660E) in font Times New Roman/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-Missing character: There is no 無 (U+7121) in font Times New Roman/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-Missing character: There is no 法 (U+6CD5) in font Times New Roman/OT:script=lat
-n;language=dflt;mapping=tex-text;!
 
 Package tasks Warning: The width of `label-width' is too small on line 278.
 (tasks)                Please set it at least to 16.6582pt.
@@ -1550,10 +1527,6 @@ Overfull \hbox (1.57301pt too wide) in paragraph at lines 278--278
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
 
 Package tasks Warning: The width of `label-width' is too small on line 293.
 (tasks)                Please set it at least to 16.6582pt.
@@ -1591,210 +1564,187 @@ Overfull \hbox (1.57301pt too wide) in paragraph at lines 293--293
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 307.
+Package tasks Warning: The width of `label-width' is too small on line 310.
 (tasks)                Please set it at least to 16.6582pt.
 
 
-Overfull \hbox (1.57301pt too wide) in paragraph at lines 307--307
+Overfull \hbox (1.57301pt too wide) in paragraph at lines 310--310
 \TU/TimesNewRoman(0)/m/n/12 (A)
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 307.
+Package tasks Warning: The width of `label-width' is too small on line 310.
 (tasks)                Please set it at least to 15.9961pt.
 
 
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 307--307
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 310--310
 \TU/TimesNewRoman(0)/m/n/12 (B)
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 307.
+Package tasks Warning: The width of `label-width' is too small on line 310.
 (tasks)                Please set it at least to 15.9961pt.
 
 
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 307--307
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 310--310
 \TU/TimesNewRoman(0)/m/n/12 (C)
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 307.
+Package tasks Warning: The width of `label-width' is too small on line 310.
 (tasks)                Please set it at least to 16.6582pt.
 
 
-Overfull \hbox (1.57301pt too wide) in paragraph at lines 307--307
+Overfull \hbox (1.57301pt too wide) in paragraph at lines 310--310
 \TU/TimesNewRoman(0)/m/n/12 (D)
  []
 
+File: ./figure/A_1.jpg Graphic file (type bmp)
+<./figure/A_1.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-
+Overfull \hbox (1.99998pt too wide) in paragraph at lines 301--320
+[][]  [] 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+File: ./figure/A_2.jpg Graphic file (type bmp)
+<./figure/A_2.jpg>
 
+Overfull \hbox (1.99998pt too wide) in paragraph at lines 340--353
+[][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 350.
+Package tasks Warning: The width of `label-width' is too small on line 374.
 (tasks)                Please set it at least to 16.6582pt.
 
 
-Overfull \hbox (1.57301pt too wide) in paragraph at lines 350--350
+Overfull \hbox (1.57301pt too wide) in paragraph at lines 374--374
 \TU/TimesNewRoman(0)/m/n/12 (A)
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 350.
+Package tasks Warning: The width of `label-width' is too small on line 374.
 (tasks)                Please set it at least to 15.9961pt.
 
 
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 350--350
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 374--374
 \TU/TimesNewRoman(0)/m/n/12 (B)
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 350.
+Package tasks Warning: The width of `label-width' is too small on line 374.
 (tasks)                Please set it at least to 15.9961pt.
 
 
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 350--350
-\TU/TimesNewRoman(0)/m/n/12 (C)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
-
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 365.
-(tasks)                Please set it at least to 16.6582pt.
-
-
-Overfull \hbox (1.57301pt too wide) in paragraph at lines 365--365
-\TU/TimesNewRoman(0)/m/n/12 (A)
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 365.
-(tasks)                Please set it at least to 15.9961pt.
-
-
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 365--365
-\TU/TimesNewRoman(0)/m/n/12 (B)
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 365.
-(tasks)                Please set it at least to 15.9961pt.
-
-
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 365--365
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 374--374
 \TU/TimesNewRoman(0)/m/n/12 (C)
  []
 
 [3]
 
-Package tasks Warning: The width of `label-width' is too small on line 365.
+Package tasks Warning: The width of `label-width' is too small on line 391.
 (tasks)                Please set it at least to 16.6582pt.
 
 
-Overfull \hbox (1.57301pt too wide) in paragraph at lines 365--365
-\TU/TimesNewRoman(0)/m/n/12 (D)
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 365.
-(tasks)                Please set it at least to 15.32227pt.
-
-
-Overfull \hbox (0.23708pt too wide) in paragraph at lines 365--365
-\TU/TimesNewRoman(0)/m/n/12 (E)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
-
- []
-
-
-Package tasks Warning: The width of `label-width' is too small on line 405.
-(tasks)                Please set it at least to 16.6582pt.
-
-
-Overfull \hbox (1.57301pt too wide) in paragraph at lines 405--405
+Overfull \hbox (1.57301pt too wide) in paragraph at lines 391--391
 \TU/TimesNewRoman(0)/m/n/12 (A)
  []
 
 
-Package tasks Warning: The width of `label-width' is too small on line 405.
+Package tasks Warning: The width of `label-width' is too small on line 391.
 (tasks)                Please set it at least to 15.9961pt.
 
 
-Overfull \hbox (0.9109pt too wide) in paragraph at lines 405--405
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 391--391
 \TU/TimesNewRoman(0)/m/n/12 (B)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Package tasks Warning: The width of `label-width' is too small on line 391.
+(tasks)                Please set it at least to 15.9961pt.
 
+
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 391--391
+\TU/TimesNewRoman(0)/m/n/12 (C)
  []
 
-[5]
+
+Package tasks Warning: The width of `label-width' is too small on line 391.
+(tasks)                Please set it at least to 16.6582pt.
+
+
+Overfull \hbox (1.57301pt too wide) in paragraph at lines 391--391
+\TU/TimesNewRoman(0)/m/n/12 (D)
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 391.
+(tasks)                Please set it at least to 15.32227pt.
+
+
+Overfull \hbox (0.23708pt too wide) in paragraph at lines 391--391
+\TU/TimesNewRoman(0)/m/n/12 (E)
+ []
+
+File: ./figure/A_3.jpg Graphic file (type bmp)
+<./figure/A_3.jpg>
+
+Overfull \hbox (1.99998pt too wide) in paragraph at lines 403--416
+[][]  [] 
+ []
+
+[4]
+File: ./figure/A_4.jpg Graphic file (type bmp)
+<./figure/A_4.jpg>
+
+Overfull \hbox (25.48666pt too wide) in paragraph at lines 440--442
+ [][]
+ []
+
+
+Overfull \hbox (1.99998pt too wide) in paragraph at lines 431--443
+[][]  [] 
+ []
+
+File: ./figure/A_5.jpg Graphic file (type bmp)
+<./figure/A_5.jpg>
+
+Overfull \hbox (1.99998pt too wide) in paragraph at lines 449--461
+[][]  [] 
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 472.
+(tasks)                Please set it at least to 16.6582pt.
+
+
+Overfull \hbox (1.57301pt too wide) in paragraph at lines 472--472
+\TU/TimesNewRoman(0)/m/n/12 (A)
+ []
+
+
+Package tasks Warning: The width of `label-width' is too small on line 472.
+(tasks)                Please set it at least to 15.9961pt.
+
+
+Overfull \hbox (0.9109pt too wide) in paragraph at lines 472--472
+\TU/TimesNewRoman(0)/m/n/12 (B)
+ []
+
+[5] [6]
 This exam contains 17 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./108-8-2.aux)
 Package rerunfilecheck Info: File `108-8-2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32730 strings out of 476179
- 686570 string characters out of 5809543
+ 32773 strings out of 476179
+ 687356 string characters out of 5809543
  1031737 words of memory out of 5000000
- 52917 multiletter control sequences out of 15000+600000
+ 52952 multiletter control sequences out of 15000+600000
  475630 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 85i,7n,90p,417b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,7n,90p,417b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 108-8-2.pdf (5 pages).
+Output written on 108-8-2.pdf (6 pages).
